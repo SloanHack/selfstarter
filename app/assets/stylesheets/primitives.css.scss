@@ -102,15 +102,12 @@ details summary::-webkit-details-marker { display:none; content: ""; }
 
 
 h1 {
-  margin: 0 auto;
-  margin-left: 380px;
-  width: 174px;
+  text-align: center;
   font-family: Helvetica;
   font-size: 42px;
   font-weight: bold;
   color: $h1_color;
   letter-spacing: -.05em;
-  float: left;
   a
   {
     color: $h1_color;
@@ -178,7 +175,7 @@ h5 {
 
 body.lt-ie9 {
   .blue_button {
-    background-color: #0D97E6 !important;
+    background-color: #000000 !important;
     background-image: none !important;
   }
   .blue_button:hover {
